@@ -1,0 +1,29 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.swim-lanes {
+  min-height: 60vh;
+}
+
+.task-card {
+  margin: 0 auto;
+}
+
+.task-card:hover {
+  cursor: grab;
+}
+.modal-body {
+  display:grid;
+  float: center;
+}
+#todo-cards {
+  z-index: 1000;
+}
+.task-card.overdue {
+  background-color: #FFCDD2;
+}
+.task-card.near-deadline {
+  background-color: #FFF9C4;
+}
